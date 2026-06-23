@@ -318,12 +318,6 @@ listed [here](https://storage-download.googleapis.com/maven-central/index.html).
   `org.bukkit.plugin.java.LibraryLoader.centralURL`](#orgbukkitpluginjavalibraryloadercentralurl) system property, if it
   is set.
 
-#### MINECRAFT_MANAGEMENT_TLS_KEYSTORE_PASSWORD
-
-- **default**: `unset`
-- **description**: Overrides the value set for `management-server-tls-keystore-password` in `server.properties`. This
-  take precedence over the `management.tls.keystore.password` system property.
-
 :::caution
 
 If you wish to configure this with Maven Central, use a mirror, as using Maven Central directly as a CDN is against the
@@ -333,3 +327,9 @@ By default, this uses Google's NA mirror of Maven Central. You may also use regi
 listed [here](https://storage-download.googleapis.com/maven-central/index.html).
 
 :::
+
+#### MINECRAFT_MANAGEMENT_TLS_KEYSTORE_PASSWORD
+
+- **default**: `unset`
+- **description**: Overrides the value set for `management-server-tls-keystore-password` in `server.properties`. This
+  take precedence over the `management.tls.keystore.password` system property.
